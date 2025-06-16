@@ -1,0 +1,269 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.mode-selector {
+  margin-bottom: 30px;
+}
+
+.mode-button {
+  margin: 0 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  background-color: white;
+  color: #007bff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mode-button:hover {
+  background-color: #f8f9fa;
+}
+
+.mode-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Face Recognition Styles */
+.face-recognition-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.start-button, .stop-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.start-button:hover {
+  background-color: #218838;
+}
+
+.stop-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.stop-button:hover {
+  background-color: #c82333;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #f5c6cb;
+}
+
+.loading-message {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #bee5eb;
+}
+
+.video-container {
+  position: relative;
+  display: inline-block;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.video-element {
+  display: block;
+  width: 640px;
+  height: 480px;
+  background-color: #000;
+}
+
+.canvas-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  pointer-events: none;
+}
+
+/* Animal Face Filter Styles */
+.animal-face-filter-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.filter-container {
+  position: relative;
+  display: inline-block;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+}
+
+.filter-info {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.face-detected {
+  color: #28a745;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.face-size {
+  color: #666;
+  font-size: 14px;
+}
+
+.filter-selection-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-selection-container h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.assets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.asset-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+.asset-card:hover {
+  border-color: #007bff;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.2);
+}
+
+.asset-card.selected {
+  border-color: #28a745;
+  background-color: #f8fff9;
+  box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+}
+
+.asset-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.asset-info {
+  text-align: center;
+}
+
+.asset-info h4 {
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.asset-info p {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.asset-card.selected .asset-info h4 {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.current-selection {
+  padding: 15px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.current-selection p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .assets-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .asset-card {
+    padding: 10px;
+  }
+  
+  .asset-image {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .filter-container {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .video-element {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+  }
+  
+  .canvas-overlay {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+  }
+}

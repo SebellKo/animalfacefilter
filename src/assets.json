@@ -1,0 +1,172 @@
+{
+  "images": {
+    "tree": {
+      "url": "https://agent8-games.verse8.io/current/chat-uploads/27c2aa67-c333-42.png",
+      "description": "Stylized tree asset for casual games or background decoration with brown trunk and green foliage",
+      "metadata": {
+        "width": 225,
+        "height": 225,
+        "style": "flat graphic design",
+        "colors": ["brown trunk", "green foliage"]
+      }
+    },
+    "oak_tree": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/item-1748408582216.png",
+      "description": "Realistic oak tree with thick brown trunk, detailed bark texture, and lush green foliage",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "realistic",
+        "type": "oak"
+      }
+    },
+    "mystical_tree": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/item-1748408611681.png",
+      "description": "Mystical fantasy tree with glowing purple and blue magical aura, twisted branches, ethereal leaves",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "fantasy",
+        "type": "mystical"
+      }
+    },
+    "sakura_tree": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/item-1748408640161.png",
+      "description": "Cherry blossom tree (sakura) with delicate pink flowers covering the branches",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "anime",
+        "type": "sakura"
+      }
+    },
+    "spooky_tree": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/item-1748408659637.png",
+      "description": "Spooky Halloween tree with bare twisted branches, dark bark, and eerie atmosphere",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "realistic",
+        "type": "spooky"
+      }
+    },
+    "palm_tree": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/item-1748408678956.png",
+      "description": "Tropical palm tree with tall slender trunk and large green palm fronds",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "cartoon",
+        "type": "palm"
+      }
+    },
+    "sheep_passport": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/character-1748412912295.png",
+      "description": "Professional passport-style photo of a sheep facing directly forward with neutral expression on white background",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "realistic",
+        "type": "passport_photo",
+        "animal": "sheep"
+      }
+    },
+    "cat_formal_transparent": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/character-1748413202390.png",
+      "description": "Professional passport-style photo of a cat wearing formal business attire, facing directly forward with neutral expression, transparent background removed",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "realistic",
+        "type": "passport_photo",
+        "animal": "cat",
+        "clothing": "formal_business_attire",
+        "background": "transparent"
+      }
+    },
+    "chicken_casual_updated": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/character-1748413409224.png",
+      "description": "Updated professional passport-style photo of a chicken wearing casual clothing, facing directly forward with neutral expression, transparent background, referenced from cat formal style",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "realistic",
+        "type": "passport_photo",
+        "animal": "chicken",
+        "clothing": "casual",
+        "background": "transparent",
+        "reference": "cat_formal_style"
+      }
+    },
+    "cow_casual_new": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/character-1748413664782.png",
+      "description": "New professional passport-style photo of a cow wearing casual clothing, facing directly forward with neutral expression, transparent background, referenced from cat formal style for improved composition",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "realistic",
+        "type": "passport_photo",
+        "animal": "cow",
+        "clothing": "casual",
+        "background": "transparent",
+        "reference": "cat_formal_style"
+      }
+    },
+    "panda_casual_passport": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/character-1748413783616.png",
+      "description": "Professional passport-style photo of a panda wearing casual clothing, facing directly forward with neutral expression, transparent background, referenced from cat formal style for professional composition and lighting",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "realistic",
+        "type": "passport_photo",
+        "animal": "panda",
+        "clothing": "casual",
+        "background": "transparent",
+        "reference": "cat_formal_style"
+      }
+    },
+    "giraffe_pajama_passport": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/character-1748413890197.png",
+      "description": "Professional passport-style photo of a giraffe wearing pajamas, facing directly forward with neutral expression, transparent background, referenced from cat formal style for professional composition and lighting",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "realistic",
+        "type": "passport_photo",
+        "animal": "giraffe",
+        "clothing": "pajamas",
+        "background": "transparent",
+        "reference": "cat_formal_style"
+      }
+    },
+    "pig_party_passport": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/character-1748414007777.png",
+      "description": "Professional passport-style photo of a pig wearing party attire, facing directly forward with neutral expression, transparent background, referenced from cat formal style for professional composition and lighting",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "realistic",
+        "type": "passport_photo",
+        "animal": "pig",
+        "clothing": "party_attire",
+        "background": "transparent",
+        "reference": "cat_formal_style"
+      }
+    },
+    "dog_tshirt_passport": {
+      "url": "https://agent8-games.verse8.io/mcp-agent8-generated/static-assets/character-1748414147243.png",
+      "description": "Professional passport-style photo of a dog wearing a casual t-shirt, facing directly forward with neutral expression, transparent background, referenced from cat formal style for professional composition and lighting",
+      "metadata": {
+        "width": 512,
+        "height": 512,
+        "style": "realistic",
+        "type": "passport_photo",
+        "animal": "dog",
+        "clothing": "t-shirt",
+        "background": "transparent",
+        "reference": "cat_formal_style"
+      }
+    }
+  }
+}
